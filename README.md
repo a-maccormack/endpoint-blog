@@ -8,7 +8,15 @@ The [Endpoint Blog](http://endpoint-blog.herokuapp.com/ "Endpoint Blog") is a we
 
 
 ## Features: ##
-
+Features           | 
+-------------------| 
+Login              | 
+Register           |
+Email Verification |
+Account Recovery   |
+Post Comments      |
+Search Filtering   |
+Category Filtering |
 
 
 ## Project Date: ##
