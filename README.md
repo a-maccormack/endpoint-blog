@@ -1,5 +1,5 @@
 # Endpoint Blog #
-## Introduction/Introducción ##
+## Introduction/Introducción: ##
 ### [ENG]: ###
 The [Endpoint Blog](http://endpoint-blog.herokuapp.com/ "Endpoint Blog") is a web application that displays various blog posts from topics that interest me such as PC-Hardware and Django Development. It makes use of the django admin user interface in order to make blog post creation/management easier for end users. 
 
