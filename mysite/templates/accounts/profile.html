@@ -1,0 +1,31 @@
+{% extends "../base/base.html" %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+{% include "../base/nav-main.html" %}
+
+<div class="container text-center bg-white">
+        <div class="container">
+            <br>
+            <h1>User Dashboard</h1>
+            <p class="lead text-muted">This is where you can control your account. If you wish to logout you can click
+            the button below.</p>
+            <p>
+                <a href="{% url "logout" %}" class="btn btn-primary my-2">Logout</a>
+            </p>
+        </div>
+</div>
+
+<div class="container">
+    <section class="jumbotron text-center bg-white">
+        <div class="container">
+            <h1>Head to Endpoint!</h1>
+            <p class="lead text-muted">Head to our main page where you can read articles about Django and
+            personal computers</p>
+            <p>
+                <a href="/" class="btn btn-primary my-2">Head to site</a>
+            </p>
+        </div>
+    </section>
+</div>
+{% include "base/footer.html" %}
+{% endblock %}
